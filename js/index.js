@@ -18,6 +18,8 @@ const textEl = document.getElementById("text2");
 const imgEl = document.getElementById("img2");
 const sunEl = document.getElementById("sunEl")
 const moonEl = document.getElementById("moonEl")
+const personImageEl = document.getElementById("person_Image_2")
+const backgroundImageEl = document.getElementById("background_Image_2")
 
 
 moon.addEventListener('click', function() {
@@ -26,13 +28,18 @@ moon.addEventListener('click', function() {
     sun.style.color = "gray"
     title.style.color = "white"
     text.style.color = "white"
+    heroRight.style.display = "none"
+    heroRight.style.backgroundColor = "rgba(244,244,245,1)"
+    titleEl.remove()
+    personImageEl.remove()
+    textEl.remove()
+    backgroundImageEl.remove()
 })
 
 
-sun.addEventListener('click', function() {
-    heroRight.style.backgroundColor = "black"
-    title.style.color = "white"
-    text.style.color = "white"
-    moon.style.color = "gray"
-    sun.style.color = "rgba(191,127,4,1)"
-})
+// sun.addEventListener('click', function() {
+//     heroRight.style.backgroundColor = "rgba(191,127,4,1)"
+//     title.style.color = "white"
+//     text.style.color = "white"
+//     moon.style.color = "gray"
+// })

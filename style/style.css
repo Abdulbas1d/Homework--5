@@ -33,16 +33,12 @@ body {
 .moon {
     width: 65px;
     height: 45px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 20.5px;
-    border-bottom-left-radius: 20.5px;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
     background-color: black;
     color: gray;
-    position: relative;
-    left: 20px;
+    border-radius: 25px;
 }
 
 .sun {
